@@ -2,6 +2,7 @@
   "name": "reactthree",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ritz-code.github.io/3js-island-scene.github.io/",
   "dependencies": {
     "@react-spring/three": "^9.4.3",
     "@react-three/drei": "^8.16.0",
