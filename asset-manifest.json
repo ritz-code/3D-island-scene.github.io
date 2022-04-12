@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/3js-island-scene.github.io/static/css/main.be81b96a.css",
+    "main.js": "/3js-island-scene.github.io/static/js/main.6d3fa45f.js",
+    "static/js/76.d0692900.chunk.js": "/3js-island-scene.github.io/static/js/76.d0692900.chunk.js",
+    "static/js/787.fb765bac.chunk.js": "/3js-island-scene.github.io/static/js/787.fb765bac.chunk.js",
+    "static/js/677.1567c1ee.chunk.js": "/3js-island-scene.github.io/static/js/677.1567c1ee.chunk.js",
+    "index.html": "/3js-island-scene.github.io/index.html",
+    "main.be81b96a.css.map": "/3js-island-scene.github.io/static/css/main.be81b96a.css.map",
+    "main.6d3fa45f.js.map": "/3js-island-scene.github.io/static/js/main.6d3fa45f.js.map",
+    "76.d0692900.chunk.js.map": "/3js-island-scene.github.io/static/js/76.d0692900.chunk.js.map",
+    "787.fb765bac.chunk.js.map": "/3js-island-scene.github.io/static/js/787.fb765bac.chunk.js.map",
+    "677.1567c1ee.chunk.js.map": "/3js-island-scene.github.io/static/js/677.1567c1ee.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be81b96a.css",
+    "static/js/main.6d3fa45f.js"
+  ]
+}
