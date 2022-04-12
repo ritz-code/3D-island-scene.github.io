@@ -1,0 +1,65 @@
+
+.loadingContainer {
+    height: 100vh;
+    width: 100%;
+    background: rgb(242,242,245);
+    background: linear-gradient(0deg, rgba(242,242,245,1) 35%, rgba(8,147,176,1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    //the loader with three yellow circles using pseudo-elements ::before and ::after
+    .loader {
+        position: relative;
+        border: 1px solid pink;
+        background-color: hotpink;
+        border-radius: 50%;
+        width: 5rem;
+        height: 5rem;
+        transition: 1s ease;
+        animation: rotate 2s linear infinite;
+        margin-bottom: 1rem;
+        .circle {
+            position: absolute;
+            top: 2rem;
+            left: 0.2rem;
+            border: none;
+            border-radius: 50%;
+            background-color: #fbe787;
+            width: 0.5rem;
+            height: 0.5rem;
+        }
+        .circle::before {
+            content:"";
+            position: absolute;
+            top: 1.4rem;
+            left: 0.4rem;
+            border: none;
+            border-radius: 50%;
+            background-color: #fbe787;
+            width: 0.5rem;
+            height: 0.5rem;
+        }
+        .circle::after {
+            content:"";
+            position: absolute;
+            top: 0.75rem;
+            left: 0.05rem;
+            border: none;
+            border-radius: 50%;
+            background-color: #fbe787;
+            width: 0.5rem;
+            height: 0.5rem;
+        }
+
+       @keyframes rotate {
+            0% { transform: rotate(0); }
+            20% { transform: rotate(72deg); }
+            40% { transform: rotate(144deg); }
+            60% { transform: rotate(216deg); }
+            80% { transform: rotate(288deg); }
+            100% { transform: rotate(360deg); }
+        }
+    }
+}
